@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,16 +29,41 @@ header a {
 }
 
 header nav {
-    float: right;
+    float: right; /* moves the text to the right hand side */
     margin: 7px;
 }
 
 header nav ul li {
-    display: inline;
+    display: inline; /* allows text to follow it to the right after, instead of stacking it down */
   }
 
-  header nav ul li a {
+
+
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
   }
+
+footer {
+    background: #fce138;
+    padding: 40px 35px;
+    width: 100%;
+}
+
+footer h2 {
+    display: inline; /* allows text to follow it to the right after, instead of stacking it down */
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right; /* moves the text to the right hand side */
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
